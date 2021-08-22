@@ -1,0 +1,2036 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Responsive -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>TabList</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<div id="course" class="course-table">
+		<div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-md-12">
+                	<span class="top-strip">Guaranteed Higher Score! Only with easyMath</span>
+                	<div class="section-wrapper">
+                		<div class="course-list">
+                    		<div class="tablist">
+		                        <ul class="nav pricing-tabs gray-bg mt-30 mb-30" id="myTab" role="tablist">
+		                        	<li class="nav-item">
+		                                <a class="nav-link active tabs-btn" id="yearly-tab" data-toggle="tab" href="#yearly" role="tab"
+		                                    aria-controls="yearly" aria-selected="true">
+		                                    Yearly Courses
+		                                </a>
+		                            </li>
+		                            <li class="nav-item">
+		                                <a class="nav-link  tabs-btn" id="monthly-tab" data-toggle="tab" href="#monthly"
+		                                    role="tab" aria-controls="monthly" aria-selected="false">
+		                                    Monthly Courses
+		                                </a>
+		                            </li>
+		                        </ul>
+		                    </div>
+		                    <div class="tabcontent">
+		                        <div class="tab-content" id="myTabContent">
+		                        	<div class="tab-pane fade show active" id="yearly" role="tabpanel" aria-labelledby="yearly-tab">
+		                                <div class="mt-3">
+		                                	<div class="tablist">
+						                        <ul class="nav justify-content-between pricing-tabs gray-bg mt-30 mb-30" id="myTab" role="tablist">
+						                        	<li class="nav-item">
+						                        		<div>
+					                                		<div class="select-bar">
+							                                	<div class="form-group">
+											                        <div class="custom_select">
+											                        	<select class="form-control first_null"  id="yearlySelect"></select>
+											                        </div>
+											                    </div>
+							                                </div>
+					                                	</div>
+						                        	</li>
+						                        	<li class="nav-item">
+						                                <a class="nav-link active tabs-btn" id="cbse-tab" data-toggle="tab" href="#cbse" role="tab"
+						                                    aria-controls="cbse" aria-selected="true">
+						                                    CBSE
+						                                </a>
+						                            </li>
+						                            <li class="nav-item">
+						                                <a class="nav-link  tabs-btn" id="icse-tab" data-toggle="tab" href="#icse"
+						                                    role="tab" aria-controls="icse" aria-selected="false">
+						                                    ICSE
+						                                </a>
+						                            </li>
+						                            <li class="nav-item">
+						                                <a class="nav-link tabs-btn" id="ib-tab" data-toggle="tab" href="#ib"
+						                                    role="tab" aria-controls="ib" aria-selected="false">
+						                                    IB
+						                                </a>
+						                            </li>
+						                            <li class="nav-item">
+						                                <a class="nav-link tabs-btn" id="igcse-tab" data-toggle="tab" href="#igcse"
+						                                    role="tab" aria-controls="igcse" aria-selected="false">
+						                                    IGCSE
+						                                </a>
+						                            </li>
+						                            <li class="nav-item">
+						                                <a class="nav-link tabs-btn" id="advance-tab" data-toggle="tab" href="#advance"
+						                                    role="tab" aria-controls="advance" aria-selected="false">
+						                                    ADVANCE LEVEL
+						                                </a>
+						                            </li>
+						                        </ul>
+						                    </div>
+						                    <div class="mt-3">
+						                    	<div class="tab-content" id="myTabContent1">
+													<div class="tab-pane fade show active" id="cbse" role="tabpanel" aria-labelledby="cbse-tab">
+													<div class="list-items mb-3" id="cbse_val"></div>
+														<div class="topics">
+															<p><b>Course Topics Include</b></p>
+															<div class="row">
+																<div class="col-lg-4 col-md-6">
+																	<span class="yellow-text">Introduction</span>
+																	<ul>
+																		<li>Irrational Numbers</li>
+																		<li>Real Numbers and their Decimal</li>
+																		<li>Expansions</li>
+																		<li>Representing Real Numbers on the Number Line</li>
+																	</ul>
+																</div>
+																<div class="col-lg-4 col-md-6">
+																	<span class="yellow-text">Polynomials</span>
+																	<ul>
+																		<li>Polynomials in One Variable</li>
+																		<li>Zeroes of a Polynomial</li>
+																		<li>Remainder Theorem</li>
+																		<li>Factorisation of Polynomials <br/> Algebraic Identities</li>
+																	</ul>
+																</div>
+																<div class="col-lg-4 col-md-6">
+																	<span class="yellow-text">Polynomials</span>
+																	<ul>
+																		<li>Polynomials in One Variable</li>
+																		<li>Zeroes of a Polynomial</li>
+																		<li>Remainder Theorem</li>
+																		<li>Factorisation of Polynomials <br/> Algebraic Identities</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane fade" id="icse" role="tabpanel" aria-labelledby="icse-tab">
+														<div class="list-items mb-3"  id="icse_val"></div>
+						                    			<div class="topics">
+						                    				<p><b>Course Topics Include</b></p>
+						                    				<div class="row">
+						                    					<div class="col-lg-4 col-md-6">
+						                    						<span class="yellow-text">Introduction</span>
+						                    						<ul>
+						                    							<li>Irrational Numbers</li>
+						                    							<li>Real Numbers and their Decimal</li>
+						                    							<li>Expansions</li>
+						                    							<li>Representing Real Numbers on the Number Line</li>
+						                    						</ul>
+						                    					</div>
+						                    					<div class="col-lg-4 col-md-6">
+						                    						<span class="yellow-text">Polynomials</span>
+					                    							<ul>
+						                    							<li>Polynomials in One Variable</li>
+						                    							<li>Zeroes of a Polynomial</li>
+						                    							<li>Remainder Theorem</li>
+						                    							<li>Factorisation of Polynomials <br/> Algebraic Identities</li>
+						                    						</ul>
+						                    					</div>
+						                    					<div class="col-lg-4 col-md-6">
+						                    						<span class="yellow-text">Polynomials</span>
+						                    						<ul>
+						                    							<li>Polynomials in One Variable</li>
+						                    							<li>Zeroes of a Polynomial</li>
+						                    							<li>Remainder Theorem</li>
+						                    							<li>Factorisation of Polynomials <br/> Algebraic Identities</li>
+						                    						</ul>
+						                    					</div>
+						                    				</div>
+						                    			</div>
+						                    		</div>
+						                    		<div class="tab-pane fade" id="ib" role="tabpanel" aria-labelledby="ib-tab"></div>
+						                    		<div class="tab-pane fade" id="igcse" role="tabpanel" aria-labelledby="igcse-tab"></div>
+													<div class="tab-pane fade" id="advance" role="tabpanel" aria-labelledby="advance-tab">
+														<div class="list-items mb-3" id="advance_val"></div>
+														<div class="topics">
+															<p><b>Course Topics Include</b></p>
+															<div class="row">
+																<div class="col-lg-4 col-md-6">
+																	<span class="yellow-text">Introduction</span>
+																	<ul>
+																		<li>Irrational Numbers</li>
+																		<li>Real Numbers and their Decimal</li>
+																		<li>Expansions</li>
+																		<li>Representing Real Numbers on the Number Line</li>
+																	</ul>
+																</div>
+																<div class="col-lg-4 col-md-6">
+																	<span class="yellow-text">Polynomials</span>
+																	<ul>
+																		<li>Polynomials in One Variable</li>
+																		<li>Zeroes of a Polynomial</li>
+																		<li>Remainder Theorem</li>
+																		<li>Factorisation of Polynomials <br/> Algebraic Identities</li>
+																	</ul>
+																</div>
+																<div class="col-lg-4 col-md-6">
+																	<span class="yellow-text">Polynomials</span>
+																	<ul>
+																		<li>Polynomials in One Variable</li>
+																		<li>Zeroes of a Polynomial</li>
+																		<li>Remainder Theorem</li>
+																		<li>Factorisation of Polynomials <br/> Algebraic Identities</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+						                    	</div>
+						                    </div>
+		                                </div>
+		                            </div>
+		                            <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
+		                                <div class="row">
+		                                	<div class="col-lg-3">
+		                                		<div class="select-bar">
+				                                	<div class="form-group">
+								                        <div class="custom_select">
+								                            <select class="form-control first_null" id="grande_monthly">
+								                            </select>
+								                        </div>
+								                    </div>
+				                                </div>
+		                                	</div>
+		                                </div>
+		                                <div class="course-header">
+		                                	
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+                    	</div>
+                    	<div class=" pt-5 pb-3  pl-4 pr-5">
+                    		<div class="row justify-content-between pb-3 m-0">
+	                    		<div class="heading-area">
+	                    			<p><b>Monthly classes lat you choose <br/>
+	                    				your own course topics</b>
+	                    			</p>
+	                    		</div>
+	                    		<div class="heading-area">
+	                    			<p><b>Each session lets<br/>
+	                    				45 minutes</b>
+	                    			</p>
+	                    		</div>
+	                    		<div class="heading-area">
+	                    			<a class="btn theme-btn header-btn" href="#">Book Now</a>
+	                    		</div>
+	                    	</div>
+	                    	<div class="footer-text text-right">
+                    			<span>Refund same day <a href="#">terms & condition</a> apply*</span>
+                    		</div>
+                    	</div>
+                	</div>
+                </div>
+            </div>
+        </div>
+	</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	
+	var allJsonData = [{
+        "monthly": [{
+                "grade": "Grade 6",
+                "boards": {
+                    "general": {
+                        "sessions_5": {
+                            "price": 1800,
+                            "discount": 10,
+                            "total_sessions": 5,
+                            "per_class_price": 324,
+                            "valid": "1 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_10": {
+                            "price": 3600,
+                            "discount": 15,
+                            "total_sessions": 10,
+                            "per_class_price": 306,
+                            "valid": "2 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_20": {
+                            "price": 7200,
+                            "discount": 20,
+                            "total_sessions": 20,
+                            "per_class_price": 288,
+                            "valid": "3 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        },
+                        "sessions_45": {
+                            "price": 16200,
+                            "discount": 25,
+                            "total_sessions": 45,
+                            "per_class_price": 270,
+                            "valid": "6 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        }
+                    }
+                }
+            },
+            {
+                "grade": "Grade 7",
+                "boards": {
+                    "general": {
+                        "sessions_5": {
+                            "price": 1900,
+                            "discount": 10,
+                            "total_sessions": 5,
+                            "per_class_price": 324,
+                            "valid": "1 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_10": {
+                            "price": 3600,
+                            "discount": 15,
+                            "total_sessions": 10,
+                            "per_class_price": 306,
+                            "valid": "2 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_20": {
+                            "price": 7200,
+                            "discount": 20,
+                            "total_sessions": 20,
+                            "per_class_price": 288,
+                            "valid": "3 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        },
+                        "sessions_45": {
+                            "price": 16200,
+                            "discount": 25,
+                            "total_sessions": 45,
+                            "per_class_price": 270,
+                            "valid": "6 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        }
+                    }
+                }
+            },
+            {
+                "grade": "Grade 8",
+                "boards": {
+                    "general": {
+                        "sessions_5": {
+                            "price": 1900,
+                            "discount": 10,
+                            "total_sessions": 5,
+                            "per_class_price": 342,
+                            "valid": "1 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_10": {
+                            "price": 3800,
+                            "discount": 15,
+                            "total_sessions": 10,
+                            "per_class_price": 323,
+                            "valid": "2 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_20": {
+                            "price": 7600,
+                            "discount": 20,
+                            "total_sessions": 20,
+                            "per_class_price": 304,
+                            "valid": "3 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        },
+                        "sessions_45": {
+                            "price": 17100,
+                            "discount": 25,
+                            "total_sessions": 45,
+                            "per_class_price": 285,
+                            "valid": "6 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        }
+                    }
+                }
+            },
+            {
+                "grade": "Grade 9",
+                "boards": {
+                    "general": {
+                        "sessions_5": {
+                            "price": 2050,
+                            "discount": 10,
+                            "total_sessions": 5,
+                            "per_class_price": 369,
+                            "valid": "1 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_10": {
+                            "price": 4100,
+                            "discount": 15,
+                            "total_sessions": 10,
+                            "per_class_price": 348.5,
+                            "valid": "2 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_20": {
+                            "price": 8200,
+                            "discount": 20,
+                            "total_sessions": 20,
+                            "per_class_price": 328,
+                            "valid": "3 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        },
+                        "sessions_45": {
+                            "price": 18450,
+                            "discount": 25,
+                            "total_sessions": 45,
+                            "per_class_price": 307.5,
+                            "valid": "6 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        }
+                    }
+                }
+            },
+            {
+                "grade": "Grade 10",
+                "boards": {
+                    "CBSE": {
+                        "sessions_5": {
+                            "price": 2000,
+                            "discount": 10,
+                            "total_sessions": 5,
+                            "per_class_price": 369,
+                            "valid": "1 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_10": {
+                            "price": 4100,
+                            "discount": 15,
+                            "total_sessions": 10,
+                            "per_class_price": 348.5,
+                            "valid": "2 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_20": {
+                            "price": 8200,
+                            "discount": 20,
+                            "total_sessions": 20,
+                            "per_class_price": 328,
+                            "valid": "3 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        },
+                        "sessions_45": {
+                            "price": 18450,
+                            "discount": 25,
+                            "total_sessions": 45,
+                            "per_class_price": 307.5,
+                            "valid": "6 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        }
+                    },
+                    "NTSE": {
+                        "sessions_5": {
+                            "price": 2125,
+                            "discount": 10,
+                            "total_sessions": 5,
+                            "per_class_price": 382.5,
+                            "valid": "1 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_10": {
+                            "price": 4250,
+                            "discount": 15,
+                            "total_sessions": 10,
+                            "per_class_price": 361.25,
+                            "valid": "2 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_20": {
+                            "price": 8500,
+                            "discount": 20,
+                            "total_sessions": 20,
+                            "per_class_price": 340,
+                            "valid": "3 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        },
+                        "sessions_45": {
+                            "price": 19125,
+                            "discount": 25,
+                            "total_sessions": 45,
+                            "per_class_price": 318.75,
+                            "valid": "6 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        }
+                    }
+                }
+            },
+            {
+                "grade": "Grade 11",
+                "boards": {
+                    "CBSE": {
+                        "sessions_5": {
+                            "price": 2250,
+                            "discount": 10,
+                            "total_sessions": 5,
+                            "per_class_price": 405,
+                            "valid": "1 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_10": {
+                            "price": 4500,
+                            "discount": 15,
+                            "total_sessions": 10,
+                            "per_class_price": 382.5,
+                            "valid": "2 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_20": {
+                            "price": 9000,
+                            "discount": 20,
+                            "total_sessions": 20,
+                            "per_class_price": 360,
+                            "valid": "3 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        },
+                        "sessions_45": {
+                            "price": 20250,
+                            "discount": 25,
+                            "total_sessions": 45,
+                            "per_class_price": 337.5,
+                            "valid": "6 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        }
+                    },
+                    "JEEMain": {
+                        "sessions_5": {
+                            "price": 2500,
+                            "discount": 10,
+                            "total_sessions": 5,
+                            "per_class_price": 450,
+                            "valid": "1 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_10": {
+                            "price": 5000,
+                            "discount": 15,
+                            "total_sessions": 10,
+                            "per_class_price": 425,
+                            "valid": "2 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_20": {
+                            "price": 10000,
+                            "discount": 20,
+                            "total_sessions": 20,
+                            "per_class_price": 400,
+                            "valid": "3 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_45": {
+                            "price": 22500,
+                            "discount": 25,
+                            "total_sessions": 45,
+                            "per_class_price": 375,
+                            "valid": "6 Month",
+                            "refund": "Money Refund Same Day*"
+                        }
+                    },
+                    "JEEMainAdvanced": {
+                        "sessions_5": {
+                            "price": 3000,
+                            "discount": 10,
+                            "total_sessions": 5,
+                            "per_class_price": 540,
+                            "valid": "1 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_10": {
+                            "price": 6000,
+                            "discount": 15,
+                            "total_sessions": 10,
+                            "per_class_price": 510,
+                            "valid": "2 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_20": {
+                            "price": 12000,
+                            "discount": 20,
+                            "total_sessions": 20,
+                            "per_class_price": 480,
+                            "valid": "3 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_45": {
+                            "price": 27000,
+                            "discount": 25,
+                            "total_sessions": 45,
+                            "per_class_price": 450,
+                            "valid": "6 Month",
+                            "refund": "Money Refund Same Day*"
+                        }
+                    }
+                }
+            },
+            {
+                "grade": "Grade 12",
+                "boards": {
+                    "CBSE": {
+                        "sessions_5": {
+                            "price": 2250,
+                            "discount": 10,
+                            "total_sessions": 5,
+                            "per_class_price": 405,
+                            "valid": "1 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_10": {
+                            "price": 4500,
+                            "discount": 15,
+                            "total_sessions": 10,
+                            "per_class_price": 382.5,
+                            "valid": "2 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_20": {
+                            "price": 9000,
+                            "discount": 20,
+                            "total_sessions": 20,
+                            "per_class_price": 360,
+                            "valid": "3 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        },
+                        "sessions_45": {
+                            "price": 20550,
+                            "discount": 25,
+                            "total_sessions": 45,
+                            "per_class_price": 337.5,
+                            "valid": "6 Month",
+                            "refund": "Higher Score Guaranteed**"
+                        }
+                    },
+                    "JEEMain": {
+                        "sessions_5": {
+                            "price": 2500,
+                            "discount": 10,
+                            "total_sessions": 5,
+                            "per_class_price": 450,
+                            "valid": "1 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_10": {
+                            "price": 5000,
+                            "discount": 15,
+                            "total_sessions": 10,
+                            "per_class_price": 425,
+                            "valid": "2 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_20": {
+                            "price": 10000,
+                            "discount": 20,
+                            "total_sessions": 20,
+                            "per_class_price": 400,
+                            "valid": "3 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_45": {
+                            "price": 22500,
+                            "discount": 25,
+                            "total_sessions": 45,
+                            "per_class_price": 375,
+                            "valid": "6 Month",
+                            "refund": "Money Refund Same Day*"
+                        }
+                    },
+                    "JEEMainAdvanced": {
+                        "sessions_5": {
+                            "price": 3000,
+                            "discount": 10,
+                            "total_sessions": 5,
+                            "per_class_price": 540,
+                            "valid": "1 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_10": {
+                            "price": 6000,
+                            "discount": 15,
+                            "total_sessions": 10,
+                            "per_class_price": 510,
+                            "valid": "2 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_20": {
+                            "price": 12000,
+                            "discount": 20,
+                            "total_sessions": 20,
+                            "per_class_price": 480,
+                            "valid": "3 Month",
+                            "refund": "Money Refund Same Day*"
+                        },
+                        "sessions_45": {
+                            "price": 27000,
+                            "discount": 25,
+                            "total_sessions": 45,
+                            "per_class_price": 450,
+                            "valid": "6 Month",
+                            "refund": "Money Refund Same Day*"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "yearly": [{
+                "grade": "Grade 6",
+                "boards": {
+                    "CBSE": {
+                        "syllabus": "Knowing Our Numbers ! Whole numbers ! Playing with Numbers ! Basic Geometrical ideas ! Understanding Elementary Shapes ! Integers ! Fractions ! Decimals ! Data Handling ! Algebra ! Ratio and Proportion ! Symmetry",
+                        "price": 19440,
+                        "per_class_price": "360. Full refund if you don’t score higher than your previous exam",
+                        "discount": 0,
+                        "seats": 100,
+                        "total_sessions": 54,
+                        "online_tests": 27,
+                        "online_assignments": 81,
+                        "online_pre_assignments": 55,
+                        "online_post_assignments": 65,
+                        "career_counselling_sessions": 6
+                    },
+                    "ICSE": {
+                        "syllabus": "Number System ! Estimation ! Numbers in India and International System ! Place Value ! Natural Numbers and Whole Numbers ! Negative Numbers and Integers ! Number Line ! HCF and LCM ! Playing with numbers ! Sets ! Ratio ! Proportion (Including Word Problems) ! Unitary Method ! Fractions ! Decimal Fractions ! Percent ! Idea of Speed, Distance and Time ! Fundamental Concepts - Algebra ! Fundamental Operations - Algebraic Expressions ! Substitution ! Framing Algebraic Expressions ! Simple Equations (Including Word Problems) ! Fundamental Concepts  - Geometry ! Angles (With their Types) ! Properties of Angles and Lines ( Including Parallel Lines) ! Triangles (Including Types, Properties and Constructions) ! Quadrilaterals ! Polygons ! The Circle ! Revision Exercise Symmetry ! Recognition of Solids ! Perimeter and area of Plane Figures ! Data Handling (Including Pictograph and Bar Graph) ! Mean and Median",
+                        "price": 32400,
+                        "per_class_price": "360. Full refund if you don’t score higher than your previous exam",
+                        "discount": 0,
+                        "seats": 100,
+                        "total_sessions": 90,
+                        "online_tests": 45,
+                        "online_assignments": 135,
+                        "online_pre_assignments": 90,
+                        "online_post_assignments": 90,
+                        "career_counselling_sessions": 10
+                    },
+                    "AdvanceLevel": {
+                        "syllabus": "Number System ! Factors and Multiples ! Whole numbers ! Integers ! Fractions ! Simplification ! Decimals ! Algebraic Expression ! Linear Equation ! Ratio, Proportion and Unitary Method ! Line Segment, Ray and Line ! Parallel Lines ! Angles and Their Measurement ! Construction (Using a Ruler and a Pair of Compasses) ! Polygons ! Triangles ! Quadrilaterals ! Circles ! Three Dimensional Shapes ! Two Dimensional Reflection Symmetry ! Concept of Perimeter and Area ! Data Handling ! Pictograph ! Bargraph",
+                        "price": 32400,
+                        "discount": 0,
+                        "per_class_price": "360. Full refund if you don’t score higher than your previous exam",
+                        "seats": 100,
+                        "total_sessions": 90,
+                        "online_tests": 26,
+                        "online_assignments": 135,
+                        "online_pre_assignments": 90,
+                        "online_post_assignments": 90,
+                        "career_counselling_sessions": 10
+                    }
+                }
+            },
+            {
+                "grade": "Grade 7",
+                "boards": {
+                    "CBSE": {
+                        "syllabus": "Integers ! Fractions and Decimals ! Data Handling ! Simple Equations  ! Lines and Angles  ! The Triangle and its Properties  ! Congruence of Triangles  ! Comparing Quantities  ! Rational Numbers  ! Practical Geometry  ! Perimeter and Area  ! Algebraic Expressions  ! Exponents and Powers  ! Symmetry  ! Visualising Solid Shapes",
+                        "seats": 100,
+                        "price": 27000,
+                        "discount": 0,
+                        "per_class_price": "360. Full refund if you don’t score higher than your previous exam",
+                        "total_sessions": 75,
+                        "online_tests": 38,
+                        "online_assignments": 113,
+                        "online_pre_assignments": 85,
+                        "online_post_assignments": 95,
+                        "career_counselling_sessions": 8
+                    },
+                    "ICSE": {
+                        "syllabus": "Integers ! Rational Numbers ! Fractions (Including Problems) ! Decimal Fractions (Decimals) ! Exponents (Including Laws of Exponents) ! Ratio and Proportion (Including Sharing in a Ratio) ! Unitary Method (Including Time and Work) ! Profit, Loss and Discount ! Percent and Percentage ! Simple Interest  ! Fundamental Concepts - Algebra (Including Fundamental Operations) ! Simple Linear Equations (Including Word Problems) ! Set Concepts (Some Simple Divisions by Vedic Method) ! Lines and Angles (Including Construction of Angles) ! Triangles ! Pythagoras Theoram ! Symmetry (Including Reflection and Rotation) ! Recognition of Solids ( Representing 3D in 2D) ! Congruency: - Congruent Triangles ! Mensuration ! Data Handling ! Probability",
+                        "seats": 100,
+                        "price": 37800,
+                        "discount": 0,
+                        "per_class_price": "360. Full refund if you don’t score higher than your previous exam",
+                        "total_sessions": 105,
+                        "online_tests": 53,
+                        "online_assignments": 158,
+                        "online_pre_assignments": 115,
+                        "online_post_assignments": 110,
+                        "career_counselling_sessions": 12
+                    },
+                    "AdvanceLevel": {
+                        "syllabus": "Integers ! Fractions ! Decimals ! Rational Numbers ! Exponents ! Algebraic Expression ! Linear Equations in One Variable ! Ratio and Proportion ! Unitary Method ! Percentage ! Profit and Loss ! Simple Interest  ! Lines and Angles  ! Properties of Parallel Lines ! Properties of Triangles ! Congruence ! Constructions ! Reflection and Rotational Symmetry ! Three Dimensional Shapes ! Mensuration ! Collection and Organisation of Data (Mean, Median, Mode) ! Bar Graphs ! Probability",
+                        "seats": 100,
+                        "price": 37800,
+                       "discount": 0,
+                        "per_class_price": "360. Full refund if you don’t score higher than your previous exam",
+                        "total_sessions": 105,
+                        "online_tests": 65,
+                        "online_assignments": 158,
+                        "online_pre_assignments": 125,
+                        "online_post_assignments": 135,
+                        "career_counselling_sessions": 12
+                    }
+                }
+            },
+            {
+                "grade": "Grade 8",
+                "boards": {
+                    "CBSE": {
+                        "syllabus": "Rational Numbers ! Linear Equations in One Variable  ! Understanding Quadrilaterals  ! Practical Geometry  ! Data Handling  ! Squares and Square Roots  ! Cubes and Cube Roots  ! Comparing Quantities  ! Algebraic Expressions and Identities  ! Visualising Solid Shapes  ! Mensuration  ! Exponents and Powers  ! Direct and Inverse Proportions  ! Factorisation  ! Introduction to Graphs  ! Playing with Numbers",
+                        "seats": 100,
+                        "price": 34200,
+                        "discount": 0,
+                        "per_class_price": "380. Full refund if you don’t score higher than your previous exam",
+                        "total_sessions": 110,
+                        "online_tests": 45,
+                        "online_assignments": 135,
+                        "online_pre_assignments": 80,
+                        "online_post_assignments": 90,
+                        "career_counselling_sessions": 10
+                    },
+                    "ICSE": {
+                        "syllabus": "Integers ! Rational Numbers ! Fractions (Including Problems) ! Decimal Fractions (Decimals) ! Exponents (Including Laws of Exponents) ! Ratio and Proportion (Including Sharing in a Ratio) ! Unitary Method (Including Time and Work) ! Profit, Loss and Discount ! Percent and Percentage ! Simple Interest  ! Fundamental Concepts - Algebra (Including Fundamental Operations) ! Simple Linear Equations (Including Word Problems) ! Set Concepts (Some Simple Divisions by Vedic Method) ! Lines and Angles (Including Construction of Angles) ! Triangles ! Pythagoras Theoram ! Symmetry (Including Reflection and Rotation) ! Recognition of Solids ( Representing 3D in 2D) ! Congruency: - Congruent Triangles ! Mensuration ! Data Handling ! Probability",
+                        "seats": 100,
+                        "price": 39900,
+                        "discount": 0,
+                        "per_class_price": "380. Full refund if you don’t score higher than your previous exam",
+                        "total_sessions": 105,
+                        "online_tests": 53,
+                        "online_assignments": 158,
+                        "online_pre_assignments": 165,
+                        "online_post_assignments": 175,
+                        "career_counselling_sessions": 12
+                    },
+                    "AdvanceLevel": {
+                        "syllabus": "Rational Numbers ! Exponents ! Squares and Square Roots ! Cubes and Cube Roots ! Playing With Numbers ! Operations on Algebraic Expression ! Factorisation ! Linera Equations ! Percentage ! Profit and Loss ! Compound Interest  ! Direct and Inverse Proportions ! Time and Work ! Polygons ! Quadrilaterals  ! Parallelograms ! Construction of Quadrilaterals ! Area of Trapezium and a Polygon ! Three Dimensional Figures ! Volume and Surface Area of Solids ! Data Handling ! Introduction to Coordinate Geometry ! Line graphs and Linear Graphs ! Pie Charts ! Probability",
+                        "seats": 100,
+                        "price": 39900,
+                        "discount": 0,
+                        "per_class_price": "380. Full refund if you don’t score higher than your previous exam",
+                        "total_sessions": 115,
+                        "online_tests": 53,
+                        "online_assignments": 158,
+                        "online_pre_assignments": 145,
+                        "online_post_assignments": 135,
+                        "career_counselling_sessions": 12
+                    }
+                }
+            },
+            {
+                "grade": "Grade 9",
+                "boards": {
+                    "CBSE": {
+                        "seats": 100,
+                        "price": 43050,
+                        "per_class_price": "410. Full refund if you don’t score higher than your previous exam",
+                        "discount": 0,
+                        "syllabus": [{
+                            "Introduction": "Irrational Numbers ! Real Numbers and their Decimal Expansions ! Representing Real Numbers on the Number Line ! Operations on Real Numbers ! Laws of Exponents for Real Numbers",
+                            "POLYNOMIALS": "Polynomials in One Variable ! Zeroes of a Polynomial ! Remainder Theorem ! Factorisation of Polynomials ! Algebraic Identities",
+                            "COORDINATE GEOMETRY": "Cartesian System ! Plotting a Point in the Plane if its Coordinates are given",
+                            "LINEAR EQUATIONS IN TWO VARIABLES": "Linear Equations ! Solution of a Linear Equation ! Graph of a Linear Equation in Two Variables ! Equations of Lines Parallel to x-axis and y-axis",
+                            "INTRODUCTION TO EUCLID’S GEOMETRY": "Euclid’s Definitions, Axioms and Postulates 80 ! Equivalent Versions of Euclid’s Fifth Postulate 86",
+                            "LINES AND ANGLES": "Basic Terms and Definitions ! Intersecting Lines and Non-intersecting Lines ! Pairs of Angles ! Parallel Lines and a Transversal ! Lines Parallel to the same Line ! Angle Sum Property of a Triangle",
+                            "TRIANGLES": "Congruence of Triangles ! Criteria for Congruence of Triangles ! Some Properties of a Triangle ! Some More Criteria for Congruence of Triangles ! Inequalities in a Triangle",
+                            "QUADRILATERALS": "Angle Sum Property of a Quadrilateral ! Types of Quadrilaterals ! Properties of a Parallelogram ! Another Condition for a Quadrilateral to be a Parallelogram ! The Mid-point Theorem",
+                            "AREAS OF PARALLELOGRAMS AND TRIANGLES": "Figures on the same Base and Between the same Parallels ! Parallelograms on the same Base and ! between the same Parallels ! Triangles on the same Base and between the same Parallels",
+                            "CIRCLES": "Circles and its Related Terms : A Review ! Angle Subtended by a Chord at a Point ! Perpendicular from the Centre to a Chord ! Circle through Three Points ! Equal Chords and their Distances from the Centre ! Angle Subtended by an Arc of a Circle ! Cyclic Quadrilaterals",
+                            "CONSTRUCTIONS": "Basic Constructions ! Some Constructions of Triangles",
+                            "HERON’S FORMULA": "Area of a Triangle – by Heron’s Formula ! Application of Heron’s Formula in finding Areas of Quadrilaterals",
+                            "SURFACE AREAS AND VOLUMES": "Surface Area of a Cuboid and a Cube ! Surface Area of a Right Circular Cylinder ! Surface Area of a Right Circular Cone ! Surface Area of a Sphere ! Volume of a Cuboid ! Volume of a Cylinder ! Volume of a Right Circular Cone ! Volume of a Sphere",
+                            "STATISTICS": "Collection of Data  ! Presentation of Data ! Graphical Representation of Data  ! Measures of Central Tendency",
+                            "PROBABILITY": "Probability – an Experimental Approach",
+                            "PROOFS IN MATHEMATICS": "Mathematically Acceptable Statements  ! Deductive Reasoning  ! Theorems, Conjectures and Axioms  ! What is a Mathematical Proof?",
+                            "MATHEMATICAL MODELLING": "Review of Word Problems  ! Some Mathematical Models ! The Process of Modelling, its Advantages and Limitations"
+                        }],
+                        "total_sessions": 105,
+                        "online_tests": 53,
+                        "online_assignments": 158,
+                        "online_pre_assignments": 177,
+                        "online_post_assignments": 163,
+                        "career_counselling_sessions": 12
+                    },
+                    "ICSE": {
+                        "seats": 100,
+                        "price": 43050,
+                        "per_class_price": "410. Full refund if you don’t score higher than your previous exam",
+                        "discount": 0,
+                        "syllabus": "Rational and Irrational Numbers ! Compound Interest (Without Using Formula) ! Compound Interest (Using Formula) ! Expansions (Including Substitution) ! Factorisation ! Simultaneous Equations (Including Problems) ! Indices ! Logarithms ! Triangles (Concurrency in Triangles) ! Isosceles Triangles ! Inequalities ! Mid Point and its Converse (Including Intercept Theorem) ! Pythagoras Theorem (Proof and Simple Application and Converse) ! Rectilinear Figures (quadrilaterals, Parallelogram, Rectangle, Rhombus, Square and Trapezium) ! Construction of Polygons (Using Rules and Compass Only) ! Area Theorems ! Circle  ! Statistics ! Mean and Median (For Ungrouped Data Only) ! Area and Perimeter of plane Figures ! Solids (Surface Area and Volume of 3D Solids) ! Trigonometrical Ratios (Sine, Cosine, Tangent of an Angle and their Reciprocals) ! Trigonometrical Ratios of Standard Angles (including Evaluation of an Expression Involving Trigonometric Ratios) ! Solution of Right Triangles (Simple 2D Problems Involving One right Angled Triangle) ! Complementary Angles ! Co-ordinate Geometry ! Graphical Solution (Solution of Simultaneous Linear Equations, Graphically) ! Distance Formula",
+                        "total_sessions": 194,
+                        "online_tests": 53,
+                        "online_assignments": 158,
+                        "online_pre_assignments": 435,
+                        "online_post_assignments": 128,
+                        "career_counselling_sessions": 12
+                    },
+                    "AdvanceLevel": {
+                        "syllabus": "Number Systems ! Polynomials ! Factorisation of Polynomials ! Linear Equations in Two Variables ! Coordinate Geometry ! Introduction to Euclid’s Geometry ! Lines and Angles ! Triangles ! Congruence of Triangles and Inequalities in a Triangles ! Quadrilaterals ! Area of Parallelograms and Triangles ! Circles ! Geometrical Constructions ! Area of Triangles and Quadrilaterals ! Volume and Surface Area of Solids ! Presentation of Data in Tabular form  ! Bar Graph, Histogram and Frequency Polygon ! Mean, Median and Mode and Ungrouped data ! Probability",
+                        "seats": 100,
+                        "price": 43050,
+                        "discount": 0,
+                        "per_class_price": "410. Full refund if you don’t score higher than your previous exam",
+                        "total_sessions": 455,
+                        "online_tests": 53,
+                        "online_assignments": 158,
+                        "online_pre_assignments": 268,
+                        "online_post_assignments": 167,
+                        "career_counselling_sessions": 12
+                    }
+                }
+            },
+            {
+                "grade": "Grade 10",
+                "boards": {
+                    "CBSE": {
+                        "seats": 100,
+                        "price": 43050,
+                        "per_class_price": "410. Full refund if you don’t score higher than your previous exam",
+                        "discount": 0,
+                        "syllabus": [{
+                            "Real Numbers": "Euclid’s Division Lemma ! The Fundamental Theorem of Arithmetic ! Revisiting Irrational Numbers ! Revisiting Rational Numbers and Their Decimal Expansions",
+                            "Polynomials": "Geometrical Meaning of the Zeroes of a Polynomial ! Relationship between Zeroes and Coefficients of a Polynomial ! Division Algorithm for Polynomial",
+                            "Pair of Linear Equations in Two Variables": "Pair of Linear Equations in Two Variables ! Graphical Method of Solution of a Pair of Linear Equations ! Algebraic Methods of Solving a Pair of Linear Equations ! Substitution Method ! Elimination Method ! Cross-Multiplication Method ! Equations Reducible to a Pair of Linear Equations in Two Variable",
+                            "Quadratic Equations": "Solution of a Quadratic Equation by Factorisation ! Solution of a Quadratic Equation by Completing the Square ! Nature of Roots",
+                            "Arithmetic Progressions": "nth Term of an AP ! Sum of First n Terms of an AP",
+                            "Triangles": "Similar Figures ! Similarity of Triangles ! Criteria for Similarity of Triangles ! Areas of Similar Triangles ! Pythagoras Theorem",
+                            "Coordinate Geometry": "Distance Formula ! Section Formula ! Area of a Triangle",
+                            "Introduction to Trigonometry": "Trigonometric Ratios  ! Trigonometric Ratios of Some Specific Angles ! Trigonometric Ratios of Complementary Angles ! Trigonometric Identities",
+                            "Some Applications of Trigonometry": "Heights and Distances ! Circles ! Tangent to a Circle  ! Number of Tangents from a Point on a Circle",
+                            "Constructions": "Division of a Line Segment ! Construction of Tangents to a Circle",
+                            "Areas Related to Circles": "Introduction Perimeter and Area of a Circle — A Review  ! Areas of Sector and Segment of a Circle ! Areas of Combinations of Plane Figures",
+                            "Surface Areas and Volumes": "Surface Area of a Combination of Solids ! Volume of a Combination of Solids ! Conversion of Solid from One Shape to Another ! Frustum of a Cone",
+                            "Statistics": "Mean of Grouped Data  ! Mode of Grouped Data ! Median of GroupedData  ! Graphical Representation of Cumulative Frequency Distribution",
+                            "Probability": "Probability—A Theoretical Approach"
+                        }],
+                        "total_sessions": 431,
+                        "online_tests": 53,
+                        "online_assignments": 158,
+                        "online_pre_assignments": 468,
+                        "online_post_assignments": 159,
+                        "career_counselling_sessions": 12
+                    },
+                    "ICSE": {
+                        "seats": 100,
+                        "price": 43050,
+                        "per_class_price": "410. Full refund if you don’t score higher than your previous exam",
+                        "discount": 0,
+                        "syllabus": "GST ! Banking (Recurring Deposit Accounts) ! Shares and Dividend ! Linear Inequaitions (In One Variable) ! Quadratic Equations ! Solving Problems ( Based on Quadratic Equations) ! Ration and Proportion (Including Properties and Uses) ! Remainder and Factor Theorems ! Matrices ! Arithmetic Progression ! Geometric Progression ! Reflection (In X-axis, Y-axis, X=a, Y=a and the Origin, Invariant Points) ! Section and Mid Point Formula ! Equation of a Line ! Similarity (With Applications to Maps and Models) ! Loci (Locus and its Constructions) ! Circles ! Tangents and Intersection Chords ! Construction (Circles) ! Cylinder, Cone and Sphere (Surface Area and Volume) ! Trigonometrical Identities  ! Heights and Distances ! Graphical Representation (Histograms, Frequency Polygon and Ogives) ! Measures of Central Tendency (Mean, Median, Quartiles and Mode) ! Probability",
+                        "total_sessions": 684,
+                        "online_tests": 53,
+                        "online_assignments": 158,
+                        "online_pre_assignments": 135,
+                        "online_post_assignments": 684,
+                        "career_counselling_sessions": 12
+                    },
+                    "AdvanceLevel": {
+                        "seats": 100,
+                        "price": 43050,
+                        "per_class_price": "410. Full refund if you don’t score higher than your previous exam",
+                        "discount": 0,
+                        "syllabus": "Number Systems ! Real Numbers ! Rational Numbers ! Polynomials ! Linear Equations in Two Variables ! Quadratic Equations ! Square and cube Roots ! Introduction to Euclid’s Geometry ! Direct and Inverse Variation ! Percentage  ! Arithmetic Progression ! Coordinate Geometry ! Triangles ! Circles ! Trigonometric Ratios ! Simple and Compound Interest ! T-Ratios of Some Particular Angles ! Trigonometric Ratios of Complementary Angles ! Trigonometric Identities ! Height and Distances ! Parallelogram ! Perimeter and Area of Plane Figures ! Area of circle, Sector and Segment ! Volume and Surface Area of Solids ! Mean, Median Mode of grouped Data, Cumulative Frequency and Ogive ! Probability",
+                        "total_sessions": 438,
+                        "online_tests": 53,
+                        "online_assignments": 158,
+                        "online_pre_assignments": 684,
+                        "online_post_assignments": 135,
+                        "career_counselling_sessions": 12
+                    }
+                }
+            },
+            {
+                "grade": "Grade 11",
+                "boards": {
+                    "CBSE": {
+                        "seats": 100,
+                        "price": 54000,
+                        "per_class_price": "450. Full refund if you don’t score higher than your previous exam",
+                        "discount": 0,
+                        "syllabus": [{
+                            "Sets": "Sets and their Representations ! The Empty Set ! Finite and Infinite Sets ! Equal Sets ! Subsets ! Power Set ! Universal Set ! Venn Diagrams ! Operations on Sets ! Complement of a Set ! Practical Problems on Union and Intersection of Two Sets",
+                            "Relations and Functions": "Cartesian Product of Sets ! Relations ! Functions",
+                            "Trigonometric Functions": "Angles ! Trigonometric Functions ! Trigonometric Functions of Sum and Difference of Two Angles ! Trigonometric Equations",
+                            "Principle of Mathematical Induction": "Motivation ! The Principle of Mathematical Induction",
+                            "Complex Numbers and Quadratic Equations": "Complex Numbers ! Algebra of Complex Numbers ! The Modulus and the Conjugate of a Complex Number ! Argand Plane and Polar Representation ! Quadratic Equations",
+                            "Linear Inequalities": "Introduction ! Inequalities ! Algebraic Solutions of Linear Inequalities in One Variable ! and their Graphical Representation ! Graphical Solution of Linear Inequalities in Two Variables ! Solution of System of Linear Inequalities in Two Variables",
+                            "Permutations and Combinations": "Fundamental Principle of Counting 7.3 Permutations ! Combinations",
+                            "Binomial Theorem": "Binomial Theorem for Positive Integral Indices ! General and Middle Terms",
+                            "Sequences and Series": "Sequences ! Series ! Arithmetic Progression (A. P.) ! Geometric Progression (G. P.) ! Relationship Between A. M. and ! Sum to n terms of Special Series",
+                            "Straight Lines": "Slope of a Line ! Various Forms of the Equation of a Line ! General Equation of a Line ! Distance of a Point From a Line",
+                            "Conic Sections": "Sections of a Cone ! Circle ! Parabola ! Ellipse ! Hyperbola",
+                            "Introduction to Three Dimensional Geometry": "Coordinate Axes and Coordinate Planes in ! Three Dimensional Space  ! Coordinates of a Point in Space ! Distance between Two Points ! Section Formula",
+                            "Limits and Derivatives": "Intuitive Idea of Derivatives ! Limits  ! Limits of Trigonometric Functions ! Derivatives ",
+                            "Mathematical Reasoning": "Introduction ! Statements ! New Statements from Old ! Special Words/Phrases ! Implications  ! Validating Statements",
+                            "Statistics": "Measures of Dispersion ! Range ! Mean Deviation  ! Variance and Standard Deviation ! Analysis of Frequency Distributions",
+                            "Probability": "Introduction ! Random Experiments  ! Event  ! Axiomatic Approach to Probability",
+                            "Infinite Series": "Binomial Theorem for any Index ! Infinite Geometric Series ! Exponential Series ! Logarithmic Series"
+                        }],
+                        "total_sessions": 428,
+                        "online_tests": 60,
+                        "online_assignments": 180,
+                        "online_pre_assignments": 259,
+                        "online_post_assignments": 357,
+                        "career_counselling_sessions": 13
+                    },
+                    "ICSE": {
+                        "seats": 100,
+                        "price": 67500,
+                        "per_class_price": "450.",
+                        "discount": 0,
+                        "syllabus": "Sets, Relations and Functions ! Complex Numbers and Quadratic Equations ! Permutation and Combinations ! Mathematical Induction ! Limit ! Binomial Theorem and its Simple Applications ! Sequences and Series ! Coordinate Geometry ! Straight Lines ! Circles, Conic Section ! Trigonometry",
+                        "total_sessions": 125,
+                        "online_tests": 75,
+                        "online_assignments": 468,
+                        "online_pre_assignments": 138,
+                        "online_post_assignments": 412,
+                        "career_counselling_sessions": 17
+                    },
+                    "AdvanceLevel": {
+                        "seats": 100,
+                        "price": 78750,
+                        "per_class_price": "450.",
+                        "discount": 0,
+                        "syllabus": "Sets, Relations and Functions ! Complex Numbers and Quadratic Equations ! Permutation and Combinations ! Mathematical Induction ! Limit ! Binomial Theorem and its Simple Applications ! Sequences and Series ! Coordinate Geometry ! Straight Lines ! Circles, Conic Section ! Trigonometry",
+                        "total_sessions": 597,
+                        "online_tests": 88,
+                        "online_assignments": 263,
+                        "online_pre_assignments": 135,
+                        "online_post_assignments": 175,
+                        "career_counselling_sessions": 19
+                    }
+                }
+            },
+            {
+                "grade": "Grade 12",
+                "boards": {
+                    "CBSE": {
+                        "seats": 100,
+                        "price": 54000,
+                        "per_class_price": "450. Full refund if you don’t score higher than your previous exam",
+                        "discount": 0,
+                        "syllabus": [{
+                            "Relations and Functions": "Types of Relations  ! Types of Functions  ! Composition of Functions and Invertible Function ! Binary Operations",
+                            "Inverse Trigonometric Functions": "Introduction ! Basic Concepts ! Properties of Inverse Trigonometric Functions ! Matrices ! Matrix ! Types of Matrices ! Operations on Matrices ! Transpose of a Matrix ! Symmetric and Skew Symmetric Matrices ! Elementary Operation (Transformation) of a Matrix ! Invertible Matrices",
+                            "Determinants": "Determinant ! Properties of Determinants ! Area of a Triangle ! Minors and Cofactors ! Adjoint and Inverse of a Matrix ! Applications of Determinants and Matrices",
+                            "Continuity and Differentiability": "Continuity ! Differentiability ! Exponential and Logarithmic Functions  ! Logarithmic Differentiation ! Derivatives of Functions in Parametric Forms ! Second Order Derivative ! Mean Value Theorem",
+                            "Application of Derivatives": "Rate of Change of Quantities ! Increasing and Decreasing Functions ! Tangents and Normals ! Approximations ! Maxima and Minima",
+                            "Integrals": "Integration as an Inverse Process of Differentiation 288 ! Methods of Integration ! Integrals of some Particular Functions ! Integration by Partial Fractions ! Integration by Parts",
+                            "Definite Integral": "Fundamental Theorem of Calculus ! Evaluation of Definite Integrals by Substitution ! Some Properties of Definite Integrals",
+                            "Application of Integrals": "Area under Simple Curves ! Area between Two Curves",
+                            "Differential Equations": "Introduction ! Basic Concepts ! General and Particular Solutions of a Differential Equation ! Formation of a Differential Equation whose ! General Solution is given ! Methods of Solving First order, First Degree Differential Equations",
+                            "Vector Algebra": "Some Basic Concepts ! Types of Vectors ! Addition of Vectors"
+                        }],
+                        "total_sessions": 456,
+                        "online_tests": 60,
+                        "online_assignments": 180,
+                        "online_pre_assignments": 766,
+                        "online_post_assignments": 658,
+                        "career_counselling_sessions": 13
+                    },
+                    "ICSE": {
+                        "seats": 100,
+                        "price": 67500,
+                        "per_class_price": "450.",
+                        "discount": 0,
+                        "syllabus": "Matrices and Determinants ! Continuity and Differentiability ! Integral Calculus ! Differential Equations ! Vector Algebra ! Three Dimensional Geometry ! Statistics and Probability ! Mathematical Reasoning",
+                        "total_sessions": 425,
+                        "online_tests": 75,
+                        "online_assignments": 225,
+                        "online_pre_assignments": 562,
+                        "online_post_assignments": 145,
+                        "career_counselling_sessions": 17
+                    },
+                    "AdvanceLevel": {
+                        "seats": 100,
+                        "price": 78750,
+                        "per_class_price": "450.",
+                        "discount": 0,
+                        "syllabus": "Matrices and Determinants ! Continuity and Differentiability ! Integral Calculus ! Differential Equations ! Vector Algebra ! Three Dimensional Geometry ! Statistics and Probability ! Mathematical Reasoning",
+                        "total_sessions": 545,
+                        "online_tests": 88,
+                        "online_assignments": 263,
+                        "online_pre_assignments": 785,
+                        "online_post_assignments": 145,
+                        "career_counselling_sessions": 19
+                    }
+                }
+            }
+        ]
+    }
+];
+
+var yearlyRec = allJsonData[1].yearly;
+var yearlyRecCounts = Object.keys(yearlyRec).length;
+var yearHtml = icseHtml = AdvanceHtml = selectHtml = "";
+var mm = 6;
+for(var n=0; n<yearlyRecCounts; n++)
+{
+	var yearlyRecGrade = allJsonData[1].yearly[n].grade;
+	selectHtml += "<option value='"+mm+"'>"+yearlyRecGrade+"</option>";
+	//console.log(yearlyRecGrade);
+	var yearlyRecGradeCbse = allJsonData[1].yearly[n].boards.CBSE;
+	var yearlyRecGradeICSE = allJsonData[1].yearly[n].boards.ICSE;
+	var yearlyRecGradeAdvanceLevel = allJsonData[1].yearly[n].boards.AdvanceLevel;
+	/*console.log(yearlyRecGradeCbse);
+	console.log(yearlyRecGradeICSE);
+	console.log(yearlyRecGradeAdvanceLevel);*/
+	if(n== 0)
+	{
+		yearHtml += '<ul class="poo justify-content-between list_order_kk" id="c_'+mm+'">';
+	}else{
+		yearHtml += '<ul class="poo justify-content-between list_order_kk"  id="c_'+mm+'" style="display:none;">';
+	}
+	
+	
+		yearHtml += '<li>';
+			yearHtml += '<div class="step">';
+				yearHtml += '<p>Total <br> Session</p>';
+				yearHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeCbse.total_sessions+'</b></h6>';
+			yearHtml += '</div>';
+		yearHtml += '</li>';
+		yearHtml += '<li>';
+			yearHtml += '<div class="step">';
+				yearHtml += '<p>Online Pre <br> Assessments</p>';
+				yearHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeCbse.online_pre_assignments+'</b></h6>';
+			yearHtml += '</div>';
+		yearHtml += '</li>';
+		yearHtml += '<li>';
+			yearHtml += '<div class="step">';
+				yearHtml += '<p>Online Post <br> Assessments</p>';
+				yearHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeCbse.online_post_assignments+'</b></h6>';
+			yearHtml += '</div>';
+		yearHtml += '</li>';
+		yearHtml += '<li>';
+			yearHtml += '<div class="step">';
+				yearHtml += '<p>Total <br>Seats</p>';
+				yearHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeCbse.seats+'</b></h6>';
+			yearHtml += '</div>';
+		yearHtml += '</li>';
+		yearHtml += '<li>';
+			yearHtml += '<div class="step">';
+				yearHtml += '<p>Online <br> Tests</p>';
+				yearHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeCbse.online_tests+'</b></h6>';
+			yearHtml += '</div>';
+		yearHtml += '</li>';
+		yearHtml += '<li>';
+			yearHtml += '<div class="step">';
+				yearHtml += '<p>Career Counselling <br> Sessions with Edu Coach</p>';
+				yearHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeCbse.career_counselling_sessions+'</b></h6>';
+			yearHtml += '</div>';
+		yearHtml += '</li>';
+	yearHtml += '</ul>';
+
+
+	if(n== 0)
+	{
+		icseHtml += '<ul class="poo justify-content-between list_order_kk" id="i_'+mm+'">';
+	}else{
+		icseHtml += '<ul class="poo justify-content-between list_order_kk"  id="i_'+mm+'" style="display:none;">';
+	}
+	
+	icseHtml += '<li>';
+			icseHtml += '<div class="step">';
+				icseHtml += '<p>Total <br> Session</p>';
+				icseHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeICSE.total_sessions+'</b></h6>';
+			icseHtml += '</div>';
+		icseHtml += '</li>';
+		icseHtml += '<li>';
+			icseHtml += '<div class="step">';
+				icseHtml += '<p>Online Pre <br> Assessments</p>';
+				icseHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeICSE.online_pre_assignments+'</b></h6>';
+			icseHtml += '</div>';
+		icseHtml += '</li>';
+		icseHtml += '<li>';
+			icseHtml += '<div class="step">';
+				icseHtml += '<p>Online Post <br> Assessments</p>';
+				icseHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeICSE.online_post_assignments+'</b></h6>';
+			icseHtml += '</div>';
+		icseHtml += '</li>';
+		icseHtml += '<li>';
+			icseHtml += '<div class="step">';
+				icseHtml += '<p>Total <br>Seats</p>';
+				icseHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeICSE.seats+'</b></h6>';
+			icseHtml += '</div>';
+		icseHtml += '</li>';
+		icseHtml += '<li>';
+			icseHtml += '<div class="step">';
+				icseHtml += '<p>Online <br> Tests</p>';
+				icseHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeICSE.online_tests+'</b></h6>';
+			icseHtml += '</div>';
+		icseHtml += '</li>';
+		icseHtml += '<li>';
+			icseHtml += '<div class="step">';
+				icseHtml += '<p>Career Counselling <br> Sessions with Edu Coach</p>';
+				icseHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeICSE.career_counselling_sessions+'</b></h6>';
+			icseHtml += '</div>';
+		icseHtml += '</li>';
+	icseHtml += '</ul>';
+
+
+	if(n== 0)
+	{
+		AdvanceHtml += '<ul class="poo justify-content-between list_order_kk" id="al_'+mm+'">';
+	}else{
+		AdvanceHtml += '<ul class="poo justify-content-between list_order_kk"  id="al_'+mm+'" style="display:none;">';
+	}
+	
+	AdvanceHtml += '<li>';
+			AdvanceHtml += '<div class="step">';
+				AdvanceHtml += '<p>Total <br> Session</p>';
+				AdvanceHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeAdvanceLevel.total_sessions+'</b></h6>';
+			AdvanceHtml += '</div>';
+		AdvanceHtml += '</li>';
+		AdvanceHtml += '<li>';
+			AdvanceHtml += '<div class="step">';
+				AdvanceHtml += '<p>Online Pre <br> Assessments</p>';
+				AdvanceHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeAdvanceLevel.online_pre_assignments+'</b></h6>';
+			AdvanceHtml += '</div>';
+		AdvanceHtml += '</li>';
+		AdvanceHtml += '<li>';
+			AdvanceHtml += '<div class="step">';
+				AdvanceHtml += '<p>Online Post <br> Assessments</p>';
+				AdvanceHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeAdvanceLevel.online_post_assignments+'</b></h6>';
+			AdvanceHtml += '</div>';
+		AdvanceHtml += '</li>';
+		AdvanceHtml += '<li>';
+			AdvanceHtml += '<div class="step">';
+				AdvanceHtml += '<p>Total <br>Seats</p>';
+				AdvanceHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeAdvanceLevel.seats+'</b></h6>';
+			AdvanceHtml += '</div>';
+		AdvanceHtml += '</li>';
+		AdvanceHtml += '<li>';
+			AdvanceHtml += '<div class="step">';
+				AdvanceHtml += '<p>Online <br> Tests</p>';
+				AdvanceHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeAdvanceLevel.online_tests+'</b></h6>';
+			AdvanceHtml += '</div>';
+		AdvanceHtml += '</li>';
+		AdvanceHtml += '<li>';
+			AdvanceHtml += '<div class="step">';
+				AdvanceHtml += '<p>Career Counselling <br> Sessions with Edu Coach</p>';
+				AdvanceHtml += '<h6 class="yellow-text"><b class="ft-1">'+yearlyRecGradeAdvanceLevel.career_counselling_sessions+'</b></h6>';
+			AdvanceHtml += '</div>';
+		AdvanceHtml += '</li>';
+	AdvanceHtml += '</ul>';
+		
+
+	mm++;
+}
+
+//var yearlyRecSession = yearlyRec.boards.CBSE;
+//var generalSession = monthlyRec[y].boards.general;
+//console.log(yearlyRec);
+//console.log(yearHtml);
+$("#yearlySelect").html(selectHtml);
+$("#cbse_val").html(yearHtml);
+$("#icse_val").html(icseHtml);
+$("#advance_val").html(AdvanceHtml);
+
+$("#yearlySelect").change(function(){
+	var vals = $(this).val();
+	//alert(vals);
+	$(".list_order_kk").css("display","none");
+	//$("#c_10").css("display","block");
+	$("#c_"+vals).css("display","block");
+	$("#i_"+vals).css("display","block");
+	$("#al_"+vals).css("display","block");
+
+});
+var counts = Object.keys(allJsonData).length;
+//console.log(counts);
+/*
+"yearly": [{
+                "grade": "Grade 6",
+                "boards": {
+                    "CBSE": {
+                        */
+
+//console.log(allJsonData[0].monthly);
+
+	var htmls = "";
+	var monthlyRec = allJsonData[0].monthly;
+	var generalSession = monthlyRec[0].boards.general;
+
+	var generalSessionCBSE = monthlyRec[4].boards.CBSE;
+	var generalSessionNTSE = monthlyRec[4].boards.NTSE;
+
+
+	var xx=10;
+	for(y=0; y<1; y++)
+	{
+		
+		var generalSession = generalSessionCBSE;
+		//console.log(generalSession);
+		var dicount_price = generalSessionCBSE.sessions_5.price * generalSessionCBSE.sessions_5.discount /100;
+		var actual_price = generalSessionCBSE.sessions_5.price - dicount_price;
+		//console.log(generalSessionCBSE.sessions_5.price - dicount_price);
+		if(y==0)
+		{
+			htmls +='<ul class="course-selection" style="display:none;" id="course-items_'+xx+''+y+'" >';
+		}else{
+			htmls +='<ul class="course-selection" style="display:none;"  id="course-items_'+xx+''+y+'" >';
+		}
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios25" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios25"><b class="monthlyMonthVal">'+generalSessionCBSE.sessions_5.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionCBSE.sessions_5.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionCBSE.sessions_5.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionCBSE.sessions_5.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionCBSE.sessions_5.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionCBSE.sessions_5.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+
+
+
+
+		var dicount_price = generalSessionCBSE.sessions_10.price * generalSessionCBSE.sessions_10.discount /100;
+		var actual_price = generalSessionCBSE.sessions_10.price - dicount_price;
+		//console.log(generalSessionCBSE.sessions_10.price - dicount_price);
+		htmls +='<li class="course-items" >';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios2" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios2"><b class="monthlyMonthVal">'+generalSessionCBSE.sessions_10.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionCBSE.sessions_10.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionCBSE.sessions_10.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionCBSE.sessions_10.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionCBSE.sessions_10.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionCBSE.sessions_10.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+
+		
+		var dicount_price = generalSessionCBSE.sessions_20.price * generalSessionCBSE.sessions_20.discount /100;
+		var actual_price = generalSessionCBSE.sessions_20.price - dicount_price;
+		//console.log(generalSessionCBSE.sessions_20.price - dicount_price);
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios3" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios3"><b class="monthlyMonthVal">'+generalSessionCBSE.sessions_20.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionCBSE.sessions_20.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionCBSE.sessions_20.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionCBSE.sessions_20.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionCBSE.sessions_20.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionCBSE.sessions_20.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+		
+		var dicount_price = generalSessionCBSE.sessions_45.price * generalSessionCBSE.sessions_45.discount /100;
+		var actual_price = generalSessionCBSE.sessions_45.price - dicount_price;
+		//console.log(generalSessionCBSE.sessions_45.price - dicount_price);
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios4" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios4"><b class="monthlyMonthVal">'+generalSessionCBSE.sessions_45.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionCBSE.sessions_45.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionCBSE.sessions_45.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionCBSE.sessions_45.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionCBSE.sessions_45.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionCBSE.sessions_45.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+		htmls +='</ul>';
+		xx++;
+	}
+	var xx=11;
+	for(y=0; y<1; y++)
+	{
+		
+		//var generalSession = generalSessionCBSE;
+		//console.log(generalSession);
+		var dicount_price = generalSessionNTSE.sessions_5.price * generalSessionNTSE.sessions_5.discount /100;
+		var actual_price = generalSessionNTSE.sessions_5.price - dicount_price;
+		//console.log(generalSessionNTSE.sessions_5.price - dicount_price);
+		if(y==0)
+		{
+			htmls +='<ul class="course-selection" style="display:none;" id="course-items_'+xx+''+y+'" >';
+		}else{
+			htmls +='<ul class="course-selection" style="display:none;"  id="course-items_'+xx+''+y+'" >';
+		}
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios5" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios5"><b class="monthlyMonthVal">'+generalSessionNTSE.sessions_5.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionNTSE.sessions_5.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionNTSE.sessions_5.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionNTSE.sessions_5.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionNTSE.sessions_5.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionNTSE.sessions_5.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+
+
+
+
+		var dicount_price = generalSessionNTSE.sessions_10.price * generalSessionNTSE.sessions_10.discount /100;
+		var actual_price = generalSessionNTSE.sessions_10.price - dicount_price;
+		//console.log(generalSessionNTSE.sessions_10.price - dicount_price);
+		htmls +='<li class="course-items" >';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios6" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios6"><b class="monthlyMonthVal">'+generalSessionNTSE.sessions_10.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionNTSE.sessions_10.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionNTSE.sessions_10.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionNTSE.sessions_10.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionNTSE.sessions_10.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionNTSE.sessions_10.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+
+		
+		var dicount_price = generalSessionNTSE.sessions_20.price * generalSessionNTSE.sessions_20.discount /100;
+		var actual_price = generalSessionNTSE.sessions_20.price - dicount_price;
+		//console.log(generalSessionNTSE.sessions_20.price - dicount_price);
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios7" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios7"><b class="monthlyMonthVal">'+generalSessionNTSE.sessions_20.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionNTSE.sessions_20.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionNTSE.sessions_20.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionNTSE.sessions_20.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionNTSE.sessions_20.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionNTSE.sessions_20.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+		
+		var dicount_price = generalSessionNTSE.sessions_45.price * generalSessionNTSE.sessions_45.discount /100;
+		var actual_price = generalSessionNTSE.sessions_45.price - dicount_price;
+		//console.log(generalSessionNTSE.sessions_45.price - dicount_price);
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios8" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios8"><b class="monthlyMonthVal">'+generalSessionNTSE.sessions_45.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionNTSE.sessions_45.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionNTSE.sessions_45.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionNTSE.sessions_45.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionNTSE.sessions_45.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionNTSE.sessions_45.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+		htmls +='</ul>';
+		xx++;
+	}
+	/*console.log(htmls);
+	console.log(generalSessionCBSE);
+	console.log(generalSessionNTSE);*/
+	var xx=1000;
+
+	for(m=5; m<7; m++)
+	{
+		var generalSessionCBSE5 = monthlyRec[m].boards.CBSE;
+		var generalSessionJEEMain5 = monthlyRec[m].boards.JEEMain;
+		var generalSessionJEEMainAdvanced5 = monthlyRec[m].boards.JEEMainAdvanced;
+
+		/*console.log(generalSessionCBSE5);
+		console.log(generalSessionJEEMain5);
+		console.log(generalSessionJEEMainAdvanced5);*/
+
+
+		
+		//var generalSession = monthlyRec[y].boards.general;
+		//console.log(generalSession);
+		var dicount_price = generalSessionCBSE5.sessions_5.price * generalSessionCBSE5.sessions_5.discount /100;
+		var actual_price = generalSessionCBSE5.sessions_5.price - dicount_price;
+		//console.log(generalSessionCBSE5.sessions_5.price - dicount_price);
+		if(m==0)
+		{
+			htmls +='<ul class="course-selection"  id="course-items_'+xx+''+m+'" >';
+		}else{
+			htmls +='<ul class="course-selection" style="display:none;"  id="course-items_'+xx+''+m+'1" >';
+		}
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios9" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios9"><b class="monthlyMonthVal">'+generalSessionCBSE5.sessions_5.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionCBSE5.sessions_5.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionCBSE5.sessions_5.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionCBSE5.sessions_5.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionCBSE5.sessions_5.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionCBSE5.sessions_5.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+
+
+
+
+		var dicount_price = generalSessionCBSE5.sessions_10.price * generalSessionCBSE5.sessions_10.discount /100;
+		var actual_price = generalSessionCBSE5.sessions_10.price - dicount_price;
+		//console.log(generalSessionCBSE5.sessions_10.price - dicount_price);
+		htmls +='<li class="course-items" >';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios10" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios10"><b class="monthlyMonthVal">'+generalSessionCBSE5.sessions_10.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionCBSE5.sessions_10.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionCBSE5.sessions_10.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionCBSE5.sessions_10.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionCBSE5.sessions_10.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionCBSE5.sessions_10.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+
+		
+		var dicount_price = generalSessionCBSE5.sessions_20.price * generalSessionCBSE5.sessions_20.discount /100;
+		var actual_price = generalSessionCBSE5.sessions_20.price - dicount_price;
+		//console.log(generalSessionCBSE5.sessions_20.price - dicount_price);
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios11" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios11"><b class="monthlyMonthVal">'+generalSessionCBSE5.sessions_20.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionCBSE5.sessions_20.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionCBSE5.sessions_20.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionCBSE5.sessions_20.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionCBSE5.sessions_20.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionCBSE5.sessions_20.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+		
+		var dicount_price = generalSessionCBSE5.sessions_45.price * generalSessionCBSE5.sessions_45.discount /100;
+		var actual_price = generalSessionCBSE5.sessions_45.price - dicount_price;
+		//console.log(generalSessionCBSE5.sessions_45.price - dicount_price);
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios12" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios12"><b class="monthlyMonthVal">'+generalSessionCBSE5.sessions_45.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionCBSE5.sessions_45.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionCBSE5.sessions_45.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionCBSE5.sessions_45.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionCBSE5.sessions_45.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionCBSE5.sessions_45.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+		htmls +='</ul>';
+
+
+
+		//var generalSession = monthlyRec[y].boards.general;
+		//console.log(generalSession);
+		var dicount_price = generalSessionJEEMain5.sessions_5.price * generalSessionJEEMain5.sessions_5.discount /100;
+		var actual_price = generalSessionJEEMain5.sessions_5.price - dicount_price;
+		//console.log(generalSessionJEEMain5.sessions_5.price - dicount_price);
+		if(m==0)
+		{
+			htmls +='<ul class="course-selection"  id="course-items_'+xx+''+m+'2" >';
+		}else{
+			htmls +='<ul class="course-selection" style="display:none;"  id="course-items_'+xx+''+m+'2" >';
+		}
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios13" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios13"><b class="monthlyMonthVal">'+generalSessionJEEMain5.sessions_5.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionJEEMain5.sessions_5.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionJEEMain5.sessions_5.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionJEEMain5.sessions_5.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionJEEMain5.sessions_5.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionJEEMain5.sessions_5.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+
+
+
+
+		var dicount_price = generalSessionJEEMain5.sessions_10.price * generalSessionJEEMain5.sessions_10.discount /100;
+		var actual_price = generalSessionJEEMain5.sessions_10.price - dicount_price;
+		//console.log(generalSessionJEEMain5.sessions_10.price - dicount_price);
+		htmls +='<li class="course-items" >';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios14" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios14"><b class="monthlyMonthVal">'+generalSessionJEEMain5.sessions_10.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionJEEMain5.sessions_10.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionJEEMain5.sessions_10.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionJEEMain5.sessions_10.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionJEEMain5.sessions_10.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionJEEMain5.sessions_10.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+
+		
+		var dicount_price = generalSessionJEEMain5.sessions_20.price * generalSessionJEEMain5.sessions_20.discount /100;
+		var actual_price = generalSessionJEEMain5.sessions_20.price - dicount_price;
+		//console.log(generalSessionJEEMain5.sessions_20.price - dicount_price);
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios15" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios15"><b class="monthlyMonthVal">'+generalSessionJEEMain5.sessions_20.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionJEEMain5.sessions_20.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionJEEMain5.sessions_20.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionJEEMain5.sessions_20.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionJEEMain5.sessions_20.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionJEEMain5.sessions_20.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+		
+		var dicount_price = generalSessionJEEMain5.sessions_45.price * generalSessionJEEMain5.sessions_45.discount /100;
+		var actual_price = generalSessionJEEMain5.sessions_45.price - dicount_price;
+		//console.log(generalSessionJEEMain5.sessions_45.price - dicount_price);
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios16" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios16"><b class="monthlyMonthVal">'+generalSessionJEEMain5.sessions_45.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionJEEMain5.sessions_45.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionJEEMain5.sessions_45.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionJEEMain5.sessions_45.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionJEEMain5.sessions_45.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionJEEMain5.sessions_45.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+		htmls +='</ul>';
+
+
+
+		//var generalSession = monthlyRec[y].boards.general;
+		//console.log(generalSession);
+		var dicount_price = generalSessionJEEMainAdvanced5.sessions_5.price * generalSessionJEEMainAdvanced5.sessions_5.discount /100;
+		var actual_price = generalSessionJEEMainAdvanced5.sessions_5.price - dicount_price;
+		//console.log(generalSessionJEEMainAdvanced5.sessions_5.price - dicount_price);
+		if(m==0)
+		{
+			htmls +='<ul class="course-selection"  id="course-items_'+xx+''+m+'" >';
+		}else{
+			htmls +='<ul class="course-selection" style="display:none;"  id="course-items_'+xx+''+m+'3" >';
+		}
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios17" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios17"><b class="monthlyMonthVal">'+generalSessionJEEMainAdvanced5.sessions_5.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionJEEMainAdvanced5.sessions_5.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionJEEMainAdvanced5.sessions_5.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionJEEMainAdvanced5.sessions_5.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionJEEMainAdvanced5.sessions_5.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionJEEMainAdvanced5.sessions_5.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+
+
+
+
+		var dicount_price = generalSessionJEEMainAdvanced5.sessions_10.price * generalSessionJEEMainAdvanced5.sessions_10.discount /100;
+		var actual_price = generalSessionJEEMainAdvanced5.sessions_10.price - dicount_price;
+		//console.log(generalSessionJEEMainAdvanced5.sessions_10.price - dicount_price);
+		htmls +='<li class="course-items" >';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios18" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios18"><b class="monthlyMonthVal">'+generalSessionJEEMainAdvanced5.sessions_10.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionJEEMainAdvanced5.sessions_10.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionJEEMainAdvanced5.sessions_10.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionJEEMainAdvanced5.sessions_10.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionJEEMainAdvanced5.sessions_10.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionJEEMainAdvanced5.sessions_10.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+
+		
+		var dicount_price = generalSessionJEEMainAdvanced5.sessions_20.price * generalSessionJEEMainAdvanced5.sessions_20.discount /100;
+		var actual_price = generalSessionJEEMainAdvanced5.sessions_20.price - dicount_price;
+		//console.log(generalSessionJEEMainAdvanced5.sessions_20.price - dicount_price);
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios19" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios19"><b class="monthlyMonthVal">'+generalSessionJEEMainAdvanced5.sessions_20.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionJEEMainAdvanced5.sessions_20.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionJEEMainAdvanced5.sessions_20.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionJEEMainAdvanced5.sessions_20.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionJEEMainAdvanced5.sessions_20.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionJEEMainAdvanced5.sessions_20.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+		
+		var dicount_price = generalSessionJEEMainAdvanced5.sessions_45.price * generalSessionJEEMainAdvanced5.sessions_45.discount /100;
+		var actual_price = generalSessionJEEMainAdvanced5.sessions_45.price - dicount_price;
+		//console.log(generalSessionJEEMainAdvanced5.sessions_45.price - dicount_price);
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios20" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios20"><b class="monthlyMonthVal">'+generalSessionJEEMainAdvanced5.sessions_45.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSessionJEEMainAdvanced5.sessions_45.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSessionJEEMainAdvanced5.sessions_45.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSessionJEEMainAdvanced5.sessions_45.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSessionJEEMainAdvanced5.sessions_45.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSessionJEEMainAdvanced5.sessions_45.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+		htmls +='</ul>';
+		xx++;
+	
+	}
+
+	/*var generalSessionCBSE5 = monthlyRec[5].boards.CBSE;
+	var generalSessionJEEMain5 = monthlyRec[5].boards.JEEMain;
+	var generalSessionJEEMainAdvanced5 = monthlyRec[5].boards.JEEMainAdvanced;
+
+	console.log(generalSessionCBSE5);
+	console.log(generalSessionJEEMain5);
+	console.log(generalSessionJEEMainAdvanced5);
+
+	var generalSessionCBSE6 = monthlyRec[6].boards.CBSE;
+	var generalSessionJEEMain6 = monthlyRec[6].boards.JEEMain;
+	var generalSessionJEEMainAdvanced6 = monthlyRec[6].boards.JEEMainAdvanced;
+
+	console.log(generalSessionCBSE6);
+	console.log(generalSessionJEEMain6);
+	console.log(generalSessionJEEMainAdvanced6);*/
+	//var generalSessionCBSE = monthlyRec[0].boards.CBSE;
+
+	var monthlygeneralSessionCounts = Object.keys(generalSession).length;
+
+	//console.log(0);
+	var monthlyRecCounts = Object.keys(monthlyRec).length;
+	var monthleGrade = "";
+	var six = 6;
+	for(y=0; y<monthlyRecCounts; y++)
+	{
+		//grande_monthly
+		monthleGrade += "<option value='"+six+"'>"+monthlyRec[y].grade+"</option>";
+		//console.log(monthlyRec[y].grade);
+		// /console.log(monthlyRec[y].boards);
+		
+		//console.log(generalSession);
+		//console.log(generalSession.sessions_10.price);
+		//console.log(generalSession.sessions_5.price);
+		six++;
+	}
+	
+	var xx = 6;
+	for(y=0; y<monthlygeneralSessionCounts; y++)
+	{
+		
+		var generalSession = monthlyRec[y].boards.general;
+		//console.log(generalSession);
+		var dicount_price = generalSession.sessions_5.price * generalSession.sessions_5.discount /100;
+		var actual_price = generalSession.sessions_5.price - dicount_price;
+		//console.log(generalSession.sessions_5.price - dicount_price);
+		if(y==0)
+		{
+			htmls +='<ul class="course-selection"  id="course-items_'+xx+''+y+'" >';
+		}else{
+			htmls +='<ul class="course-selection" style="display:none;"  id="course-items_'+xx+''+y+'" >';
+		}
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios21" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios21"><b class="monthlyMonthVal">'+generalSession.sessions_5.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSession.sessions_5.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSession.sessions_5.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSession.sessions_5.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSession.sessions_5.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSession.sessions_5.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+
+
+
+
+		var dicount_price = generalSession.sessions_10.price * generalSession.sessions_10.discount /100;
+		var actual_price = generalSession.sessions_10.price - dicount_price;
+		//console.log(generalSession.sessions_10.price - dicount_price);
+		htmls +='<li class="course-items" >';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios22" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios22"><b class="monthlyMonthVal">'+generalSession.sessions_10.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSession.sessions_10.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSession.sessions_10.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSession.sessions_10.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSession.sessions_10.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSession.sessions_10.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+
+		
+		var dicount_price = generalSession.sessions_20.price * generalSession.sessions_20.discount /100;
+		var actual_price = generalSession.sessions_20.price - dicount_price;
+		//console.log(generalSession.sessions_20.price - dicount_price);
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios23" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios23"><b class="monthlyMonthVal">'+generalSession.sessions_20.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSession.sessions_20.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSession.sessions_20.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSession.sessions_20.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSession.sessions_20.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSession.sessions_20.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+		
+		var dicount_price = generalSession.sessions_45.price * generalSession.sessions_45.discount /100;
+		var actual_price = generalSession.sessions_45.price - dicount_price;
+		//console.log(generalSession.sessions_45.price - dicount_price);
+		htmls +='<li class="course-items">';
+			htmls +='<div class="row">';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<div class="custome-radio">';
+			        htmls +='<input class="form-check-input" type="radio" name="payment_option" id="exampleRadios24" value="option1">';
+			        htmls +='<label class="form-check-label" for="exampleRadios24"><b class="monthlyMonthVal">'+generalSession.sessions_45.valid+
+			        '</b> <br/>'; 
+			        	htmls +='<span class="monthlyMonthRefundVal">'+generalSession.sessions_45.refund+'</span></label>';
+			    htmls +='</div>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6 class="yellow-text"><b class="ft-1">₹ '+actual_price +'</b> <span><del>₹ '+generalSession.sessions_45.price+'</del></span></h6>';
+				htmls +='<span class="bg-text"><b>'+generalSession.sessions_45.discount+'% OFF</b></span>';
+			htmls +='</div>';
+			htmls +='<div class="col-lg-4 col-md-6">';
+				htmls +='<h6><b>₹ '+generalSession.sessions_45.per_class_price+' per session</b></h6>';
+				htmls +='<span class="ft-2">'+generalSession.sessions_45.total_sessions+' Session</span>';
+			htmls +='</div>';
+			htmls +='</div>';
+		htmls +='</li>';
+		htmls +='</ul>';
+		xx++;
+	}
+	//console.log(htmls);
+	$(".course-header").html(htmls);	
+	$("#grande_monthly").html(monthleGrade);
+	$("#grande_monthly").change(function(){
+		var valll = $(this).val();
+		//alert(valll);
+		$(".course-selection").css("display","none");
+		if(valll == 6)
+		{
+			$("#course-items_60").css("display","block");
+		}
+		if(valll == 7)
+		{
+			$("#course-items_71").css("display","block");
+		}
+		if(valll == 8)
+		{
+			$("#course-items_82").css("display","block");
+		}
+		if(valll == 9)
+		{
+			$("#course-items_93").css("display","block");
+		}
+		if(valll == 10)
+		{
+			$("#course-items_100").css("display","block");
+			$("#course-items_110").css("display","block");
+		} 
+		if(valll == 11)
+		{
+			$("#course-items_100051").css("display","block");
+			$("#course-items_100052").css("display","block");
+			$("#course-items_100053").css("display","block");
+		} 
+		if(valll == 12)
+		{
+			$("#course-items_100161").css("display","block");
+			$("#course-items_100162").css("display","block");
+			$("#course-items_100163").css("display","block");
+		} 
+	});
+
+</script>
+</body>
+</html>
